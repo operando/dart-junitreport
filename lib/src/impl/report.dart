@@ -49,6 +49,7 @@ class XmlReport implements JUnitReport {
             <String, dynamic>{
               'classname': className,
               'name': test.name,
+              'file': test.url,
               'time': _milliseconds.format((test.duration) / 1000.0)
             },
             children));

@@ -333,10 +333,12 @@ packages:
   testreport:
     dependency: "direct main"
     description:
-      name: testreport
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "1.2.0"
+      path: "."
+      ref: "7f4460f"
+      resolved-ref: "7f4460f689025c19ad6011f75f0efbd67833d687"
+      url: "git@github.com:operando/dart-testreport.git"
+    source: git
+    version: "1.2.1-dev"
   typed_data:
     dependency: transitive
     description:
@@ -387,4 +389,4 @@ packages:
     source: hosted
     version: "2.2.1"
 sdks:
-  dart: ">=2.7.0 <3.0.0"
+  dart: ">=2.12.0 <3.0.0"

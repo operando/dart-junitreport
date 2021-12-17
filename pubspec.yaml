@@ -9,7 +9,10 @@ documentation:
 dependencies:
   args: ^1.6.0
   intl: ^0.16.1
-  testreport: ^1.2.0
+  testreport:
+    git:
+      url: git@github.com:operando/dart-testreport.git
+      ref: "7f4460f"
   xml: ^4.3.0
 
 dev_dependencies:
